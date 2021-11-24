@@ -1,0 +1,448 @@
+@font-face {
+    font-family: 'OpenSansCondensed-Bold';
+    src: url('src/fonts/OpenSansCondensed-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeagueGothic-Regular';
+    src: url('src/fonts/LeagueGothic-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSansCondensed-Bold';
+    color: #747474;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('src/img/img-menino-doente.svg');
+    background-size: cover;
+    background-position-x: center;
+    height: 100vh;    
+}
+
+header > img {
+    height: 10rem;
+    margin: 10rem;
+}
+
+header > button {
+    height: 2.5rem;
+    width: 9rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: #3E3F7F;
+    font-family: 'OpenSansCondensed-Bold';
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sectionAboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;
+}
+
+.sectionAboutMe > h3 {
+    margin: 0;
+    color: #153E80;
+    font-family: 'OpenSansCondensed-Bold';
+    font-size: 2rem;
+}
+
+.sectionAboutMe > small {
+    font-family: 'OpenSansCondensed-Bold';
+    color: #5BABD4;
+    font-size: 1rem;
+}
+
+.sectionAboutMe > img {
+    height: 3rem;    
+    margin-top: 2rem;
+}
+
+.sectionExperience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;
+
+    background-color: #152E4D;
+}
+
+.sectionExperience > h3 {
+    margin: 0;
+    color: white;
+    font-family: 'OpenSansCondensed-Bold';
+    font-size: 2rem;
+}
+
+.sectionExperience > small {
+    font-family: 'OpenSansCondensed-Bold';
+    color: #2FA5E1;
+    font-size: 1rem;
+}
+
+.job {
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+}
+
+.job > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job > div > h4 {
+    color: white;
+}
+
+.job > div > span {
+    font-size: small;
+    color: #385070;
+}
+
+.job > small {
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+    color: #516787;
+    border-bottom: 1px solid #2c4468;
+}
+
+.sectionEducation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;
+
+    background-color: #30B9EF;
+}
+
+
+.sectionEducation > h3 {
+    margin: 0;
+    color: white;
+    font-family: 'OpenSansCondensed-Bold';
+    font-size: 2rem;
+}
+
+.sectionEducation > small {
+    font-family: 'OpenSansCondensed-Bold';
+    color: #152E4D;
+    font-size: 1rem;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.education > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education > div > h4 {
+    color: white;
+}
+
+.education > div > span {
+    font-size: small;
+    color: #385070;
+}
+
+.education > small  {
+    margin-top: -1rem;
+    color: #516787;
+    margin-bottom: 1rem;
+}
+
+.education-estudy {
+    color: #697c97 !important;
+}
+
+
+.sectionEducation > button {
+    height: 2.5rem;
+    width: 14rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #1C314E;
+    font-family: 'OpenSansCondensed-Bold';
+    font-size: 1rem;
+}
+
+.sectionSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 91vh;
+
+    background-color: white;
+}
+
+.sectionSkills > h3 {
+    margin: 0;
+    color: #152E4D;
+    font-family: 'OpenSansCondensed-Bold';
+    font-size: 2rem;
+}
+
+.sectionSkills > small {
+    font-family: 'OpenSansCondensed-Bold';
+    color: #2FA5E1;
+    font-size: 1rem;
+}
+
+.skillsConteiner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.skillsConteiner > ul {
+    list-style-type: none;
+    color: rgb(172, 172, 172);
+}
+
+.skillsConteiner > ul > li:first-child {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    color: #747474;
+}
+
+.sectionContato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;
+
+    background-color: #152E4D;
+}
+
+.sectionContato > h3 {
+    margin: 0;
+    color: white;
+    font-family: 'OpenSansCondensed-Bold';
+    font-size: 2rem;
+}
+
+.sectionContato > small {
+    font-family: 'OpenSansCondensed-Bold';
+    color: #2FA5E1;
+    font-size: 1rem;
+}
+
+.sectionContato > p {
+    color: rgb(139, 139, 139);
+}
+
+.sectionContato > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    align-self: center;
+}
+
+.sectionContato > form > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.sectionContato > form > div > input,
+.sectionContato > form > div > textarea
+ {
+    font-size: 1.2rem;
+    color: rgb(165, 165, 165);
+    border: none;
+    outline: none;
+}
+
+.sectionContato > form > button {
+    height: 2.5rem;
+    width: 8rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #253d5e;
+    font-family: 'OpenSansCondensed-Bold';
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .sectionAboutMe{
+        justify-content: start;
+        align-items: baseline;
+        padding: 10rem;
+    }
+
+    .sectionExperience{
+        justify-content: start;
+        align-items: baseline;
+        padding: 10rem;
+        height: 100%;
+    }
+
+    .sectionEducation{
+        justify-content: start;
+        align-items: baseline;
+        padding: 10rem;
+        height: 100%;
+    }
+
+    .sectionSkills{
+        justify-content: start;
+        align-items: baseline;
+        padding: 10rem;
+        height: auto;
+    }
+    
+    .skillsConteiner {
+        flex-direction: row;
+    }
+    
+    .skillsConteiner > ul:first-child {
+        margin-left: -2rem;
+    }
+
+    .skillsConteiner > ul {
+        margin-right: 8rem;
+    }
+
+    .sectionContato {
+        justify-content: start;
+        align-items: baseline;
+        padding: 10rem;
+        height: auto;
+        width: auto;
+    }
+
+    .sectionContato > p{
+        width: 70%;
+    }
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;  
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
